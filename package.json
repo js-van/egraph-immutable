@@ -1,0 +1,37 @@
+{
+  "name": "egraph-immutable",
+  "version": "0.0.0",
+  "description": "Immutable graph data structure for egraph",
+  "main": "graph.js",
+  "files": [
+    "graph.js"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likr/egraph-immutable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/likr/egraph-immutable/issues"
+  },
+  "homepage": "https://github.com/likr/egraph-immutable#readme",
+  "dependencies": {
+    "immutable": "^3.8.1"
+  },
+  "peerDependencies": {
+    "egraph": "^1.2.0"
+  },
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^2.4.5",
+    "power-assert": "^1.4.1"
+  }
+}
